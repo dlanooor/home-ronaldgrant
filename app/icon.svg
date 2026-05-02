@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="72" y1="56" x2="440" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617" />
+      <stop offset="0.54" stop-color="#0f172a" />
+      <stop offset="1" stop-color="#0369a1" />
+    </linearGradient>
+    <radialGradient id="glow-a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(162 118) rotate(50) scale(278)">
+      <stop stop-color="#38bdf8" stop-opacity="0.86" />
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(410 420) rotate(-140) scale(260)">
+      <stop stop-color="#fbbf24" stop-opacity="0.48" />
+      <stop offset="1" stop-color="#fbbf24" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)" />
+  <rect width="512" height="512" rx="108" fill="url(#glow-a)" />
+  <rect width="512" height="512" rx="108" fill="url(#glow-b)" />
+  <path d="M86 151h340M86 256h340M86 361h340M151 86v340M256 86v340M361 86v340" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2" />
+  <rect x="84" y="84" width="344" height="344" rx="52" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2" />
+  <text x="256" y="299" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="142" font-weight="700" fill="#f8fafc">RG</text>
+</svg>
