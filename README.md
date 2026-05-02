@@ -34,7 +34,8 @@ A premium split-screen personal gateway built with the latest Next.js App Router
 ├── package-lock.json
 ├── package.json
 ├── postcss.config.mjs
-└── tsconfig.json
+├── tsconfig.json
+└── vercel.json
 ```
 
 ## Setup
